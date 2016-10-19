@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    </head>
+    <body>
+        <input type= "text" id= "status" placeholder= "what's your name">
+        </input>
+        <button onclick="buttonClicked()">
+            Click
+        </button>
+    <p>
+        
+    </p>
+    <script>
+    function buttonClicked(){
+       var name = $('input').val();
+       $('p').text("Hi " + name +" nice to meet you");
+    }
+         
+            
+        </script> 
+    </body>
+    
+</html>
